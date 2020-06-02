@@ -1,2 +1,6 @@
 # The Dragon  
-Fajardo Market
+**Fajardo Market**
+
+Project Directory
+- fajardoAngular
+- fajardoJava

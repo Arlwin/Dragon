@@ -1,0 +1,118 @@
+.header {
+  height: 100px;
+  position: relative;
+}
+
+.logo {
+
+  display: inline-block;
+  width: 40%;
+  height: 100%;
+
+  #logo-store {
+
+    position: absolute;
+    left: 58px;
+    top: 23px;
+
+    width: 293px;
+    height: 36px;
+    margin: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #0E9594;
+
+  }
+
+  #logo-name {
+
+    position: absolute;
+    left: 122px;
+    top: 51px;
+
+    width: 293px;
+    height: 36px;
+    margin: 0px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 41px;
+
+    color: #F56C43;
+  }
+}
+
+.search {
+
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+
+  position: relative;
+
+  input {
+
+    position: absolute;
+    top: 17px;
+
+    width: 100%;
+    height: 40px;
+
+    border-radius: 50px;
+    background-color: #F3C969;
+    border: 0px;
+
+  }
+}
+
+.menu-bar {
+
+  //display: inline-block;
+  width: 35%;
+  height: 100%;
+  float: right;
+
+  position: relative;
+
+  span {
+
+    display: inline-block;
+
+    margin-right: 47px;
+    margin-left: 47px;
+    margin-top: 17px;
+
+    width: 0px;
+    height: 40px;
+
+    border: 2px solid #127475;
+  }
+
+  h3 {
+
+    display: inline-block;
+    vertical-align: top;
+
+    width: 49px;
+    height: 15px;
+
+    margin-top: 30px;
+    margin-right: 12px;
+
+    font-family: Ubuntu;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 16px;
+
+    color: #0E9594;
+  }
+}
+
