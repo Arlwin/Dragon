@@ -1,0 +1,95 @@
+.head-content {
+
+  margin-top: 80px;
+
+  .text {
+
+    margin: auto;
+    width: 170px;
+
+    h3 {
+
+      width: 170px;
+      height: 21px;
+      left: 630px;
+      top: 144px;
+
+      font-family: Ubuntu;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+      /* identical to box height */
+
+
+      color: #562C2C;
+    }
+  }
+
+  .cards {
+
+    position: relative;
+    width: 100%;
+    height: 400px;
+
+    .food-card {
+
+      position: absolute;
+      left: 0px;
+
+      width: 48%;
+      height: 400px;
+
+      background: rgba(14, 149, 148, 0.6);
+
+      display: flex;
+      align-items: center;
+
+      h1 {
+        margin: auto;
+
+        width: 185px;
+        height: 74px;
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 74px;
+
+        color: #F5DFBB;
+      }
+    }
+
+    .hygiene-card {
+
+      position: absolute;
+      right: 0px;
+
+      width: 48%;
+      height: 400px;
+
+      background: rgba(245, 108, 67, 0.6);
+
+      display: flex;
+      align-items: center;
+
+      h1 {
+        margin: auto;
+
+        top: 50%;
+
+        width: 278px;
+        height: 74px;
+
+        font-family: Ubuntu;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 64px;
+        line-height: 74px;
+
+        color: #F5DFBB;
+      }
+    }
+  }
+}
